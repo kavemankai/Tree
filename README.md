@@ -9,8 +9,10 @@ A collection of short films seen entirely from one old tree. The tree is the cam
 - `storyboard/LOVERS_BOARD_v1.jpg`: the perspective-locked contact sheet for The Lovers, 15 beats.
 - `storyboard/LOVERS_BEATS.md`: one card per beat (positions, facing, camera, plate, sound, seam notes). Generated from code.
 - `storyboard/SEAM_PLAN.md`: how the film splits into generated clips with hidden joins, plus costs.
-- `storyboard/plates/`: the empty plate and the season grades. All of them are **placeholders**: a local paint-out and colour grades of POV_MASTER, not generated plates.
+- `storyboard/plates/PLATE_*.png`: the local empty plate and season grades used on the board. These are **placeholders**: a local paint-out and colour grades of POV_MASTER, not generated plates.
 - `storyboard/panels/`: full-resolution panels.
+- `storyboard/plates/GEN_*_2k.png`: generated plates (empty master, five seasons, S02a end frame), all within 3 px of the locked landmarks.
+- `storyboard/proofs/`: first video proofs, frame strips and `PROOF_REPORT.md`.
 - `reference_images/`: the original concept images. Read the handover to see which are approved and which are historical.
 - `tools/`: the Python (PIL and numpy) that produces all of the above.
 
@@ -22,6 +24,8 @@ python3 tools/clean_plate.py   # empty placeholder plate
 python3 tools/plates.py        # season placeholder grades
 python3 tools/board.py         # panels and contact sheet
 python3 tools/cards.py         # beat cards
+python3 tools/check_plate.py PLATE.png OUT.png   # geometry check for a plate
+python3 tools/check_clip.py CLIP.mp4 OUT_DIR     # geometry check for a clip
 ```
 
 Beats, positions and facings live in `tools/beats.py`. The camera numbers live in `tools/camera.py`. Change them there and re-run.
