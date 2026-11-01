@@ -11,16 +11,21 @@ The film has to read as one unbroken observation. In practice it's built from sh
 3. **Each fast-forward has two layers:**
    - The seasons and light come from interpolating between season plates. This can run at any speed.
    - The action (wagon, walkers, brief visits) comes from 1x clips composited on top.
-4. **The wagon's speed is a real decision.** The note below sets out the choice.
+4. **The wagon plays at 4–8x, slower than the seasons.** See the decision below.
 5. **Ageing happens off screen.** A character leaves the frame at one age and comes back at the next. No on-screen morphing.
 6. **The camera moves only in beats 12 and 14.** Those two clips need a plate extended downward first (about 350 px and about 185 px).
 
-## A decision you need to make: wagon speed
+## Decided: wagon speed is 4–8x
 
-A wagon takes roughly 8 seconds to cross the frame at walking pace. At 32x it would be on screen for a quarter of a second, which reads as a flicker, not as "a horse pulling a wagon with turning wheels". There are two options:
+A wagon takes roughly 8 seconds to cross the frame at walking pace. At 32x it would be on screen for a quarter of a second, which reads as a flicker, not as "a horse pulling a wagon with turning wheels".
 
-- **(a) Separate speeds.** The season layer runs at 24–48x while the wagon layer plays at 4–8x, so the wagon reads clearly. It looks like real sped-up footage, though strictly it is not one playback rate. This is my recommendation.
-- **(b) One true rate.** The wagon becomes a blur, and that conflicts with the handover's "not merely blur streaks".
+So the two layers run at different rates. The season and light layer runs at 24–48x. The wagon layer plays at 4–8x, putting it on screen for 1–2 seconds with readable hooves and turning wheels. Strictly this is not one playback rate, but it reads as real footage sped up, which is what the handover asks for.
+
+In practice:
+
+- Generate each wagon pass at 1x, 8–10 s long, so there is enough footage to retime.
+- Retime the wagon layer to 4–8x in the edit. Use the slower end when the wagon is nearer the lens.
+- The wagon's lighting has to match the season plate underneath it at the moment it crosses. Don't let it drift through the season change.
 
 ## Segments
 

@@ -56,9 +56,9 @@ Panels: `storyboard/panels/BEAT_XX.jpg`. Contact sheet: `storyboard/LOVERS_BOARD
 - **Plate:** `PLATE_AUTUMN_LATE` (placeholder grade)
 - **People:** none in frame
 - **Wagon:** on the road, travelling left to right (same wagon, horse and driver every time)
-- **Action:** Empty clearing sped up: clouds race, light swings, a wagon crosses left to right at full readable motion, leaves turn, first snow.
+- **Action:** Empty clearing sped up: clouds race, light swings, leaves turn, first snow. A wagon crosses left to right more slowly than the world around it (4-8x), so hooves and wheels read.
 - **Sound:** Ambience ramps with speed: wind gusts compress, hooves become a rapid patter then gone.
-- **Seam / generation:** Generate wagon pass at 1x (5-8 s) on AUTUMN_LATE, speed up 32x in edit. Season change = separate plate interpolation, wagon layer composited.
+- **Seam / generation:** Generate wagon pass at 1x (8-10 s) on AUTUMN_LATE. Season layer runs at 32x; wagon layer is retimed to 4-8x so it reads (1-2 s on screen).
 - **Accept / reject notes:** (fill in per take)
 
 ## 05  Older teens
@@ -98,7 +98,7 @@ Panels: `storyboard/panels/BEAT_XX.jpg`. Contact sheet: `storyboard/LOVERS_BOARD
 - **Wagon:** on the road, travelling right to left (same wagon, horse and driver every time)
 - **Action:** Rain sweeps through, puddles fill and dry, the same wagon returns right to left. One distant dog crosses the field.
 - **Sound:** Rain hiss compressed, wagon creak, then dry wind.
-- **Seam / generation:** Wagon return generated at 1x on SPRING_RAIN plate, same wagon/driver refs as beat 04.
+- **Seam / generation:** Wagon return generated at 1x (8-10 s) on SPRING_RAIN plate, same wagon/driver refs as beat 04. Wagon layer at 4-8x over the 32x season layer.
 - **Accept / reject notes:** (fill in per take)
 
 ## 08  Young adults
@@ -140,7 +140,7 @@ Panels: `storyboard/panels/BEAT_XX.jpg`. Contact sheet: `storyboard/LOVERS_BOARD
 - **Wagon:** on the road, travelling left to right (same wagon, horse and driver every time)
 - **Action:** Neither of them. Snow comes and goes, a lone walker passes, the wagon goes by on runners or wheels in mud.
 - **Sound:** Snow-muffled ambience, sped wind, a crow.
-- **Seam / generation:** Empty plate interpolation + composited walker/wagon layers.
+- **Seam / generation:** Empty plate interpolation at 24x + composited walker and wagon layers. Wagon layer at 4-8x.
 - **Accept / reject notes:** (fill in per take)
 
 ## 11  Reconciliation
@@ -182,7 +182,7 @@ Panels: `storyboard/panels/BEAT_XX.jpg`. Contact sheet: `storyboard/LOVERS_BOARD
 - **Wagon:** on the road, travelling left to right (same wagon, horse and driver every time)
 - **Action:** Seasons cycle repeatedly. Brief uncomplicated visits flicker by at speed: the two of them walking past, sitting, leaving. Ageing happens between visits.
 - **Sound:** Compressed seasonal ambience; a few words of their voices sped up.
-- **Seam / generation:** Short 1x visit clips, each sped 48x, separated by empty-plate interpolation.
+- **Seam / generation:** Short 1x visit clips, each sped 48x, separated by empty-plate interpolation. Wagon layer at 4-8x.
 - **Reference assets:** A2: about-thirty identity sheet (TO BUILD)
 - **Accept / reject notes:** (fill in per take)
 
