@@ -11,11 +11,11 @@ The film has to read as one unbroken observation. In practice it's built from sh
 3. **Each fast-forward has two layers:**
    - The seasons and light come from interpolating between season plates. This can run at any speed.
    - The action (wagon, walkers, brief visits) comes from 1x clips composited on top.
-4. **The wagon plays at 4–8x, slower than the seasons.** See the decision below.
+4. **Wagons and walkers play at 4–8x, slower than the seasons.** See the decision below.
 5. **Ageing happens off screen.** A character leaves the frame at one age and comes back at the next. No on-screen morphing.
 6. **The camera moves only in beats 12 and 14.** Those two clips need a plate extended downward first (about 350 px and about 185 px).
 
-## Decided: wagon speed is 4–8x
+## Decided: wagons and walkers play at 4–8x
 
 A wagon takes roughly 8 seconds to cross the frame at walking pace. At 32x it would be on screen for a quarter of a second, which reads as a flicker, not as "a horse pulling a wagon with turning wheels".
 
@@ -26,6 +26,12 @@ In practice:
 - Generate each wagon pass at 1x, 8–10 s long, so there is enough footage to retime.
 - Retime the wagon layer to 4–8x in the edit. Use the slower end when the wagon is nearer the lens.
 - The wagon's lighting has to match the season plate underneath it at the moment it crosses. Don't let it drift through the season change.
+
+Walkers and other travellers on foot get the same treatment. Someone walking along the road takes about 20 seconds to cross the frame at 1x, so at 4–8x they are on screen for 3–5 seconds and their steps read. The same rules apply:
+
+- A 20-second crossing is longer than one Kling clip (10 s maximum), so either chain two clips joined at mid-frame, or have the walker cut the corner on a diagonal so the crossing fits in about 10 s.
+- Match their lighting to the season plate at the moment they cross.
+- This applies only to strangers passing through. The couple's sped-up visits in beat 13 stay at 48x on purpose: they are meant to flicker by.
 
 ## Segments
 
@@ -46,7 +52,7 @@ Lengths are generation targets. Kling 3.0 clips run 5–10 s, so long beats are 
 | S08a–c | 08 | Empty SUMMER | Empty SUMMER | Long visit, A1 ages. Chain 3 clips | 30 s | Held stillness, then exit |
 | S09a | 09 | Empty AUTUMN_LATE | Him leaving at the left edge | Argument | 10 s | He crosses the left frame edge |
 | S09b | 09 | S09a end | Empty AUTUMN_LATE | She holds, sits, then leaves | 10 s | Empty frame |
-| S10 | 10 | Empty AUTUMN_LATE | Empty SUMMER | Winter interpolation; walker and wagon layers | n/a + 8 s wagon | Empty frame |
+| S10 | 10 | Empty AUTUMN_LATE | Empty SUMMER | Winter interpolation; walker and wagon layers, both at 4–8x | n/a + 8 s wagon + 10–20 s walker | Empty frame |
 | S11 | 11 | Empty SUMMER | Embrace held | Two entries, apology, embrace | 10 s | Held stillness |
 | S12 | 12 | S11 end (needs the extended plate) | Empty AUTUMN_GOLD (tilted, then back to neutral) | They walk under the lens. Carving is sound only | 10 s | Empty frame |
 | S13 | 13 | Empty AUTUMN_GOLD | Empty SOFT_AFTERNOON | Season cycles plus 3–4 short 1x visit clips sped up | n/a + 4 × 5 s | Empty frame between visits |
