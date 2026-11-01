@@ -138,9 +138,9 @@ Panels: `storyboard/panels/BEAT_XX.jpg`. Contact sheet: `storyboard/LOVERS_BOARD
 - **Plate:** `PLATE_WINTER_SNOW` (placeholder grade)
 - **People:** none in frame
 - **Wagon:** on the road, travelling left to right (same wagon, horse and driver every time)
-- **Action:** Neither of them. Snow comes and goes, a lone walker passes, the wagon goes by on runners or wheels in mud.
+- **Action:** Neither of them. Snow comes and goes. A lone walker and the wagon pass more slowly than the world around them (4-8x), so their steps and wheels read.
 - **Sound:** Snow-muffled ambience, sped wind, a crow.
-- **Seam / generation:** Empty plate interpolation at 24x + composited walker and wagon layers. Wagon layer at 4-8x.
+- **Seam / generation:** Empty plate interpolation at 24x + composited walker and wagon layers, both retimed to 4-8x. Walker crossing generated at 1x, 10-20 s (chain two clips if needed).
 - **Accept / reject notes:** (fill in per take)
 
 ## 11  Reconciliation

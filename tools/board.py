@@ -263,7 +263,7 @@ def main():
            fill=(220, 225, 220), font=fnt)
     d.text((margin, fy + 26), 'PLACEHOLDER plates: local paint-out + colour grades of POV_MASTER. Figures are blocking glyphs at true scale; arrows on the ground = facing. Blue/red dashes = Elias/Maeve paths.',
            fill=(220, 225, 220), font=fnt)
-    d.text((margin, fy + 52), 'Fast-forward = 1x footage sped up in the edit (seasons 24-48x, wagon layer 4-8x). Never ask the video model for time-lapse.',
+    d.text((margin, fy + 52), 'Fast-forward = 1x footage sped up in the edit (seasons 24-48x, wagons and walkers 4-8x). Never ask the video model for time-lapse.',
            fill=(255, 190, 120), font=fnt)
     sheet.save("storyboard/LOVERS_BOARD_v1.jpg", quality=92)
     print('wrote storyboard/LOVERS_BOARD_v1.jpg', sheet.size)
